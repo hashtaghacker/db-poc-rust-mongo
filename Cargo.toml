@@ -1,0 +1,9 @@
+[package]
+name = "db-poc-rocket"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mongodb = {version = "2.8.1", features = ["async-std"]}
+rocket = {version = "0.5.0", features = ["json"]}
+rocket_db_pools = { version = "0.1.0", features = ["mongodb"] }

@@ -1,0 +1,5 @@
+[default.databases.mongodb] 
+url = "mongodb+srv://dev:5Bv4AK2toz8lTjnc@dev.xz55h.mongodb.net/?retryWrites=true&w=majority&appName=dev?directConnection=true"
+min_connections = 1
+max_connections = 10
+connect_timeout = 5
